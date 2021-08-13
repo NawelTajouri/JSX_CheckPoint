@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import './style.css';
-import imageInSrc from "./imageInSrc.jpg";
+import imageInSrc from './imageInSrc.jpg';
+import videomp from './Myvideo.mp4';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
        </div>
        <br/>
        <video width="320" height="240" controls>
-      <source src="https://www.youtube.com/watch?v=mHONNcZbwDY" type="video/mp4" />
+      <source src={ videomp } type="video/mp4" />
       </video>
     </div>
   );
